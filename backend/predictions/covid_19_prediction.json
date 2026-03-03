@@ -1,0 +1,21 @@
+{
+  "disease": "COVID-19",
+  "timestamp": "2026-02-21T22:08:35.985092",
+  "region": "Veracruz, M\u00e9xico",
+  "current_date": "2024-12-31",
+  "current_cases": 13,
+  "predicted_cases": 13,
+  "prediction_horizon_weeks": 4,
+  "risk_level": "BAJO",
+  "risk_score": 0.3,
+  "trend": "ESTABLE",
+  "historical_mean": 257.5781678551838,
+  "historical_std": 342.1236132539362,
+  "model_metrics": {
+    "mae_test": 4.053572968277648,
+    "rmse_test": 5.431427730305677,
+    "r2_test": 0.5404737790731917,
+    "r2_cv_mean": 0.9398098514937032,
+    "r2_cv_std": 0.02715908245331948
+  }
+}

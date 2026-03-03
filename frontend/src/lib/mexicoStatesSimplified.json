@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "state": "Veracruz" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-96.9, 19.2], [-96.1, 19.2], [-96.1, 20.8], [-96.9, 20.8], [-96.9, 19.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Ciudad de México" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.4, 19.1], [-98.9, 19.1], [-98.9, 19.6], [-99.4, 19.6], [-99.4, 19.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Jalisco" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-104.5, 19.2], [-102.7, 19.2], [-102.7, 21.5], [-104.5, 21.5], [-104.5, 19.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Nuevo León" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-100.9, 24.6], [-99.1, 24.6], [-99.1, 27.8], [-100.9, 27.8], [-100.9, 24.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Puebla" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-99.0, 18.0], [-97.0, 18.0], [-97.0, 20.8], [-99.0, 20.8], [-99.0, 18.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Guanajuato" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-101.8, 19.9], [-99.7, 19.9], [-99.7, 21.7], [-101.8, 21.7], [-101.8, 19.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Chiapas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-93.9, 14.5], [-90.4, 14.5], [-90.4, 17.9], [-93.9, 17.9], [-93.9, 14.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Estado de México" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-100.5, 18.4], [-98.6, 18.4], [-98.6, 20.4], [-100.5, 20.4], [-100.5, 18.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Michoacán" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-103.7, 18.1], [-100.0, 18.1], [-100.0, 20.4], [-103.7, 20.4], [-103.7, 18.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "state": "Oaxaca" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-98.6, 15.6], [-93.8, 15.6], [-93.8, 18.7], [-98.6, 18.7], [-98.6, 15.6]]]
+      }
+    }
+  ]
+}

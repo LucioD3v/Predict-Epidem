@@ -1,0 +1,21 @@
+{
+  "disease": "Influenza",
+  "timestamp": "2026-02-21T22:08:35.784511",
+  "region": "Veracruz, M\u00e9xico",
+  "current_date": "2024-12-30",
+  "current_cases": 783,
+  "predicted_cases": 804,
+  "prediction_horizon_weeks": 4,
+  "risk_level": "ALTO",
+  "risk_score": 0.7,
+  "trend": "ESTABLE",
+  "historical_mean": 251.8054474708171,
+  "historical_std": 289.3543747534485,
+  "model_metrics": {
+    "mae_test": 43.96390621531248,
+    "rmse_test": 70.07516407292057,
+    "r2_test": 0.9554587352998809,
+    "r2_cv_mean": 0.7963188391790295,
+    "r2_cv_std": 0.07107837979745028
+  }
+}

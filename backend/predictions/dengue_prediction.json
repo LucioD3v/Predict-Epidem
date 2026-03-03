@@ -1,0 +1,21 @@
+{
+  "disease": "Dengue",
+  "timestamp": "2026-02-21T22:08:35.930529",
+  "region": "Veracruz, M\u00e9xico",
+  "current_date": "2024-12-22",
+  "current_cases": 3104,
+  "predicted_cases": 4630,
+  "prediction_horizon_weeks": 4,
+  "risk_level": "MEDIO",
+  "risk_score": 0.5,
+  "trend": "CRECIENTE",
+  "historical_mean": 7154.384615384615,
+  "historical_std": 35044.33228116877,
+  "model_metrics": {
+    "mae_test": 14231.895572025194,
+    "rmse_test": 76473.59563670462,
+    "r2_test": -0.02066361673975181,
+    "r2_cv_mean": -2.853102920828546,
+    "r2_cv_std": 6.734751133572021
+  }
+}

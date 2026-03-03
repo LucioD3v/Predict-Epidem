@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-02-21T22:08:35.987737",
+  "region": "Veracruz, M\u00e9xico",
+  "diseases": [
+    {
+      "disease": "Influenza",
+      "timestamp": "2026-02-21T22:08:35.784511",
+      "region": "Veracruz, M\u00e9xico",
+      "current_date": "2024-12-30",
+      "current_cases": 783,
+      "predicted_cases": 804,
+      "prediction_horizon_weeks": 4,
+      "risk_level": "ALTO",
+      "risk_score": 0.7,
+      "trend": "ESTABLE",
+      "historical_mean": 251.8054474708171,
+      "historical_std": 289.3543747534485,
+      "model_metrics": {
+        "mae_test": 43.96390621531248,
+        "rmse_test": 70.07516407292057,
+        "r2_test": 0.9554587352998809,
+        "r2_cv_mean": 0.7963188391790295,
+        "r2_cv_std": 0.07107837979745028
+      }
+    },
+    {
+      "disease": "Chikungunya",
+      "timestamp": "2026-02-21T22:08:35.831733",
+      "region": "Veracruz, M\u00e9xico",
+      "current_date": "2024-12-30",
+      "current_cases": 8,
+      "predicted_cases": 10,
+      "prediction_horizon_weeks": 4,
+      "risk_level": "MEDIO",
+      "risk_score": 0.5,
+      "trend": "CRECIENTE",
+      "historical_mean": 19.85603112840467,
+      "historical_std": 11.892367752009154,
+      "model_metrics": {
+        "mae_test": 3.420231881057539,
+        "rmse_test": 4.541372486523331,
+        "r2_test": 0.8699234264571164,
+        "r2_cv_mean": 0.8508811965323367,
+        "r2_cv_std": 0.01828748363938462
+      }
+    },
+    {
+      "disease": "Zika",
+      "timestamp": "2026-02-21T22:08:35.878579",
+      "region": "Veracruz, M\u00e9xico",
+      "current_date": "2024-12-30",
+      "current_cases": 2,
+      "predicted_cases": 2,
+      "prediction_horizon_weeks": 4,
+      "risk_level": "BAJO",
+      "risk_score": 0.3,
+      "trend": "ESTABLE",
+      "historical_mean": 4.770428015564202,
+      "historical_std": 2.741075898568308,
+      "model_metrics": {
+        "mae_test": 1.0486122542231624,
+        "rmse_test": 1.357001018169538,
+        "r2_test": 0.7089328597650792,
+        "r2_cv_mean": 0.6991417357646946,
+        "r2_cv_std": 0.08586480033872211
+      }
+    },
+    {
+      "disease": "Dengue",
+      "timestamp": "2026-02-21T22:08:35.930529",
+      "region": "Veracruz, M\u00e9xico",
+      "current_date": "2024-12-22",
+      "current_cases": 3104,
+      "predicted_cases": 4630,
+      "prediction_horizon_weeks": 4,
+      "risk_level": "MEDIO",
+      "risk_score": 0.5,
+      "trend": "CRECIENTE",
+      "historical_mean": 7154.384615384615,
+      "historical_std": 35044.33228116877,
+      "model_metrics": {
+        "mae_test": 14231.895572025194,
+        "rmse_test": 76473.59563670462,
+        "r2_test": -0.02066361673975181,
+        "r2_cv_mean": -2.853102920828546,
+        "r2_cv_std": 6.734751133572021
+      }
+    },
+    {
+      "disease": "COVID-19",
+      "timestamp": "2026-02-21T22:08:35.985092",
+      "region": "Veracruz, M\u00e9xico",
+      "current_date": "2024-12-31",
+      "current_cases": 13,
+      "predicted_cases": 13,
+      "prediction_horizon_weeks": 4,
+      "risk_level": "BAJO",
+      "risk_score": 0.3,
+      "trend": "ESTABLE",
+      "historical_mean": 257.5781678551838,
+      "historical_std": 342.1236132539362,
+      "model_metrics": {
+        "mae_test": 4.053572968277648,
+        "rmse_test": 5.431427730305677,
+        "r2_test": 0.5404737790731917,
+        "r2_cv_mean": 0.9398098514937032,
+        "r2_cv_std": 0.02715908245331948
+      }
+    }
+  ],
+  "summary": {
+    "total_diseases": 5,
+    "critical_alerts": 0,
+    "high_alerts": 1
+  }
+}

@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Theme (Default) */
+:root[data-theme="dark"] {
+  --bg-primary: #0F1419;
+  --bg-secondary: #1A1F2E;
+  --bg-tertiary: #2D3748;
+  --text-primary: #F7FAFC;
+  --text-secondary: #A0AEC0;
+  --border: #2D3748;
+  --accent-blue: #3B82F6;
+  --accent-purple: #A855F7;
+  --risk-low: #10B981;
+  --risk-medium: #F59E0B;
+  --risk-high: #EF4444;
+  --risk-critical: #DC2626;
+  --card-bg: #1A1F2E;
+  --hover-bg: #2D3748;
+}
+
+/* Light Theme */
+:root[data-theme="light"] {
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F7FAFC;
+  --bg-tertiary: #E2E8F0;
+  --text-primary: #1A202C;
+  --text-secondary: #4A5568;
+  --border: #E2E8F0;
+  --accent-blue: #3B82F6;
+  --accent-purple: #A855F7;
+  --risk-low: #10B981;
+  --risk-medium: #F59E0B;
+  --risk-high: #EF4444;
+  --risk-critical: #DC2626;
+  --card-bg: #FFFFFF;
+  --hover-bg: #F7FAFC;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  background: var(--bg-secondary) !important;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  background: white !important;
+  border-radius: 8px !important;
+}
+
+.fire-icon {
+  background: transparent !important;
+  border: none !important;
+  font-size: 20px;
+}
+
+/* Touch optimization */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hover-bg);
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .leaflet-container {
+    touch-action: pan-y pinch-zoom;
+  }
+
+  /* Reduce motion for better performance */
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Safe area for notched devices */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+}

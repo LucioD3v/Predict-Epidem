@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.pkl
+*.joblib
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# AWS
+*.zip
+function.zip
+
+# Data files (grandes archivos de datos)
+backend/data/*.zip
+backend/data/*.csv
+backend/data/*.pdf
+backend/data/*.xlsx
+backend/data/*.XLSX
+Data_training/*.csv
+*.csv
+
+# Modelos entrenados (archivos grandes)
+backend/models/*.pkl
+backend/models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporal
+tmp/
+temp/
+*.tmp
+
+# Documentos de Office
+*.docx
+*.doc
+*.xls
+*.xlsx
+
+# Mantener estructura de carpetas
+!backend/data/.gitkeep
+!backend/models/.gitkeep
+!backend/predictions/.gitkeep
+!Data_training/.gitkeep
