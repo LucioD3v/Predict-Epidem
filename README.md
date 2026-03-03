@@ -316,10 +316,9 @@ vercel
 
 ---
 
-## 👥 Autor
+## 👥 Autores
 
-**Fernando Silva**  
-AWS Community Builder  
+**Fernando Silva** , **Vicente G. Guzmán**, **Emiliano martinez**
 Competencia: 10,000 AIdeas 2026
 
 ---
